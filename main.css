@@ -1,16 +1,33 @@
-/* empezamos */
 /* variables*/
 :root {
     --color_rojo: #8B0000;
     --color_verde: #006400;
-    --color_oro: #B8860B;
+    --color_oro: #ff0000;
+    --color_verdeclaro: #1900ff;
+    --color_comentarios: #00959d;
     
-
+/* colores*/
 }
 h1 {
-color: #008000;
+color:#B8860B;
 }
-
-jk {
+/* color agua*/
+h1 {
     color:aqua;
+}
+/* color verde */
+#m1234{
+color:#6bd104;
+}
+/* color amarillo*/
+#color_amarillo{
+    color: var(--color_oro);
+}
+/* color verde claro*/
+#fd {
+    color: var(--color_verdeclaro)
+}
+/* color azul moderado*/
+#as {
+    color: var(--color_comentarios)
 }
